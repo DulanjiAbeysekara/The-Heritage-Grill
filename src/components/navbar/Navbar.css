@@ -1,0 +1,86 @@
+.navbar {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+    cursor: pointer;
+}
+.navbar ul :hover{
+    color: rgba(202, 34, 34, 0.932);
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+
+.navbar .logo {
+    width: 75px;
+    border-radius: 50%;
+}
+
+.title {
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    margin-right:22%;
+}
+
+.navbar-menu {
+    font-family: "Roboto Condensed", sans-serif;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color: white;
+    align-items: center; 
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center; 
+    gap: 30px;
+    margin-bottom: 15px;
+}
+
+.search, .cart {
+    width: 28px;
+    height: 28px;
+}
+
+.barket {
+    position: relative;
+}
+.navbar button{
+    font-family: "Roboto Condensed", sans-serif;
+    background-color:rgba(202, 34, 34, 0.932);
+    font-size: 16px;
+    color:  #fff;;
+    border: 1px solid;
+    padding:10px 25px;
+    border-radius:50px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #ccc;
+    color: black;
+    font-weight: bold;
+} 
+.barket{
+position: relative;
+}
+.dot{
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+/* */
+

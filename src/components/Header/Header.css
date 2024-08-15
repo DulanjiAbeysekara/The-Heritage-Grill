@@ -1,0 +1,41 @@
+.header{
+    height:34vw;
+    margin:30px auto;
+    background-size: contain;
+    position: relative;
+    color: white;
+}
+.homePic{
+    width: 450px;
+    left: 60%;
+    bottom: 25%;
+    position: absolute;
+    border-radius:35%;
+    /* rotate: 20%; */
+}
+.header-content{
+    position: absolute;
+    display: flex;
+    flex-direction:column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width:50%;
+    bottom: 40%;
+    left:6vw;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    animation: fadeIn 3s;
+}
+.header-content h2{
+    font-family: "Oswald", sans-serif;
+
+}
+.header-content button{
+    border: none;
+    color: #504949;
+    font-weight:500;
+    padding: 1vw 1.3vw;
+    background-color: white;
+    font-size:max(1vw,13px);
+    border-radius: 50px;
+}

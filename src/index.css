@@ -1,2 +1,22 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Grey+Qo&family=New+Amsterdam&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Grey+Qo&family=New+Amsterdam&family=Prata&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Grey+Qo&family=New+Amsterdam&family=Oswald:wght@200..700&family=Prata&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: rgb(27, 26, 26);
+  }
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+ .app{
+    width: 80%;
+    margin: auto;
+}
