@@ -11,7 +11,7 @@ const ExploerMenu = () => {
         {menu_list.map((item,index)=>{
                 return(
                     <div key={index} className='exploer_menu_list_item'>
-                        <img src={item.menu_image}/>
+                        <img className='imgeList' src={item.menu_image}/>
                         <p>{item.menu_name}</p>
                     </div>     
                 )

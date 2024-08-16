@@ -1,0 +1,33 @@
+.exploerMenu{
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.exploerMenu h1{
+    color: white;
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+}
+.exploerMenu p{
+    max-width:100%;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.exploer_menu_list{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    margin:20px 0px;
+    overflow-x: scroll;
+ 
+}
+
+.imgeList{
+    width:250px;
+    height:175px;
+    border-radius:20%;
+}
