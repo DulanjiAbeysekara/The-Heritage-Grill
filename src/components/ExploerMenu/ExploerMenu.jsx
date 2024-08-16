@@ -1,8 +1,9 @@
 import React from 'react'
 import './ExploerMenu.css'
 import { menu_list } from '../../assets/assets'
+import { Prev } from 'react-bootstrap/esm/PageItem'
 
-const ExploerMenu = () => {
+const ExploerMenu = ({category,setCategory}) => {
   return (
     <div className='exploerMenu' id='exploerMenu'>
         <h1>Exploer Our Menu</h1>
@@ -10,14 +11,14 @@ const ExploerMenu = () => {
       <div className="exploer_menu_list">
         {menu_list.map((item,index)=>{
                 return(
-                    <div key={index} className='exploer_menu_list_item'>
-                        <img className='imgeList' src={item.menu_image}/>
+                    <div onClick={()=>setCategory(prev=>prev===item.menu_name?"All":item.menu_name)} key={index} className='exploer_menu_list_item'>
+                        <img id='imgeList' className={category===item.menu_name?"active":""} src={item.menu_image}/>
                         <p>{item.menu_name}</p>
                     </div>     
                 )
         })}
       </div>
-
+            <hr/>
     </div>
   )
 }
