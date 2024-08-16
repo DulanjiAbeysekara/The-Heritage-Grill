@@ -9,7 +9,7 @@ import menu3 from './menu_3.jpeg';
 import menu4 from './menu_4.jpeg';
 import menu5 from './menu_5.jpeg';
 import menu6 from './menu_6.jpeg';
-import menu7 from './menu_7.jpeg';
+// import menu7 from './menu_7.jpeg';
 
 export const assets = {
     logo,
@@ -28,23 +28,24 @@ export const menu_list = [
         menu_image: menu2
     },
     {
-        menu_name: "Noddle",
-        menu_image: menu3
-    },
-    {
-        menu_name: "Noddle",
-        menu_image: menu4
-    },
-    {
-        menu_name: "Deserts",
-        menu_image: menu5
-    },
-    {
         menu_name: "Sandwich",
         menu_image: menu6
     },
     {
-        menu_name: "Salad",
-        menu_image: menu7
+        menu_name: "Noddle",
+        menu_image: menu3
+    },
+    {
+        menu_name: "Deserts",
+        menu_image: menu4
+    },
+    {
+        menu_name: "Drinks",
+        menu_image: menu5
     }
+  
+    // {
+    //     menu_name: "Salad",
+    //     menu_image: menu7
+    // }
 ];
