@@ -27,6 +27,24 @@ import food8 from './Sausage Delight.jpg'
 import food9 from './Cheesy Tomato with Gre.jpg'
 import food10 from './new pizz.jpg'
 
+import food11 from './chickensandwich1.jpeg'
+import food12 from './eggsandwich.jpeg'
+import food13 from './seafoodsandwich.jpeg'
+import food14 from './beefsandwich.jpeg'
+import food15 from './hamsandwich.jpeg'
+
+
+import food16 from './friednoodles.jpeg'
+import food17 from './shpgethi.jpeg'
+import food18 from './cheesepasta.jpeg'
+
+
+import food23 from './wata.jpeg'
+import food22 from './moose.jpeg'
+import food21 from './pudding.jpeg'
+import food20 from './icecream.jpeg'
+import food19 from './cheesecake.jpeg'
+
 
 
 export const assets = {
@@ -146,6 +164,7 @@ export const food_list=[
         description:"Food provides essential nutrients for overall health and well-being",
         category:"Pizza"
      },
+
      {
         id: "10",
         name:"Cheesy Tomato with Gre",
@@ -156,13 +175,113 @@ export const food_list=[
      },
 
 
-    //  {
-    //     id: "11",
-    //     name:"Hamburger",
-    //     image:food11,
-    //     price:950,
-    //     description:"Food provides essential nutrients for overall health and well-being",
-    //     category:"Burger"
-    //  },
+     {
+        id: "11",
+        name:"Chicken Sandwich",
+        image:food11,
+        price:1000,
+        description:"Food provides essential nutrients for overall health and well-being",
+        category:"Sandwich"
+     },
      
+     {
+        id: "12",
+        name:"Egg Sandwich",
+        image:food12,
+        price:950,
+        description:"Food provides essential nutrients for overall health and well-being",
+        category:"Sandwich"
+     },
+     {
+        id: "13",
+        name:"Seafood Sandwich",
+        image:food13,
+        price:1150,
+        description:"Food provides essential nutrients for overall health and well-being",
+        category:"Sandwich"
+     },
+     {
+        id: "14",
+        name:"Roast Beef Sandwich",
+        image:food14,
+        price:1150,
+        description:"Food provides essential nutrients for overall health and well-being",
+        category:"Sandwich"
+     },
+     {
+        id: "15",
+        name:"Ham Sandwich",
+        image:food15,
+        price:950,
+        description:"Food provides essential nutrients for overall health and well-being",
+        category:"Sandwich"
+     },
+
+     {
+        id: "18",
+        name:"Cheese Pasta",
+        image:food18,
+        price:1050,
+        description:"Food provides essential nutrients for overall health and well-being",
+        category:"Noddle"
+     },
+     {
+        id: "16",
+        name:"Fried noodles",
+        image:food16,
+        price:950,
+        description:"Food provides essential nutrients for overall health and well-being",
+        category:"Noddle"
+     },
+     {
+        id: "17",
+        name:"Angel Hair Pasta",
+        image:food17,
+        price:1150,
+        description:"Food provides essential nutrients for overall health and well-being",
+        category:"Noddle"
+     },
+
+
+     {
+        id: "19",
+        name:"Cheese Cakes",
+        image:food19,
+        price:800,
+        description:"Food provides essential nutrients for overall health and well-being",
+        category:"Desert"
+     },
+     {
+        id: "20",
+        name:"Ice Cream",
+        image:food20,
+        price:550,
+        description:"Food provides essential nutrients for overall health and well-being",
+        category:"Desert"
+     },
+     {
+        id: "21",
+        name:"Pudding",
+        image:food21,
+        price:600,
+        description:"Food provides essential nutrients for overall health and well-being",
+        category:"Desert"
+     },
+     {
+        id: "22",
+        name:"Chocolate Mousse",
+        image:food22,
+        price:650,
+        description:"Food provides essential nutrients for overall health and well-being",
+        category:"Desert"
+     },
+     {
+        id: "23",
+        name:"Watalappan",
+        image:food23,
+        price:500,
+        description:"Food provides essential nutrients for overall health and well-being",
+        category:"Desert"
+     },
+
 ]; 
