@@ -7,6 +7,9 @@ import ratingStarts from './star-rate.png'
 import plus from './plus (1).png'
 import plus2 from './plus (2).png'
 import minus from './minus.png'
+import facebook from './facebook (2).png'
+import twitter from './twitter.png'
+import linkdine from './message.png'
 
   
 
@@ -65,7 +68,10 @@ export const assets = {
     ratingStarts,
     plus,
     plus2,
-    minus
+    minus,
+    facebook,
+    twitter,
+    linkdine
 };
 
 export const menu_list = [

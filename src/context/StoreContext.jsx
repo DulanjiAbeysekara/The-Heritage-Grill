@@ -5,38 +5,45 @@ export const StoreContext = createContext(null);
 
 const StoreContextProvider = (props) => {
 
-    const [cartItems,setCartItem]=useState({});
+    const [cartItems, setCartItem] = useState({});
 
-    const addToCart=(itemId) =>{
-
-        if(!cartItems[itemId]){
-            setCartItem((prev)=>({...prev,[itemId]:1}))
-        }else{
-            setCartItem((prev)=>({...prev,[itemId]:prev[itemId]+1}))
+    const addToCart = (itemId) => {
+        if (!cartItems[itemId]) {
+            setCartItem((prev) => ({ ...prev, [itemId]: 1 }));
+        } else {
+            setCartItem((prev) => ({ ...prev, [itemId]: prev[itemId] + 1 }));
         }
-    }
+    };
 
-        const removeForCart=(itemId) => {
-            setCartItem((prev)=>({...prev,[itemId]:prev[itemId]-1}))
-        }
+    const removeFromCart = (itemId) => {
+        setCartItem((prev) => {
+            const newCart = { ...prev };
+            if (newCart[itemId] > 1) {
+                newCart[itemId] -= 1;
+            } else {
+                delete newCart[itemId];
+            }
+            return newCart;
+        });
+    };
 
-        useEffect(()=>{
-            console.log(cartItems);
-        },[cartItems])
+    useEffect(() => {
+        console.log(cartItems);
+    }, [cartItems]);
 
     const contextValue = {
         food_list,
         cartItems,
         setCartItem,
         addToCart,
-        removeForCart
+        removeFromCart
     };
 
     return (
         <StoreContext.Provider value={contextValue}>
-            {props.children} 
+            {props.children}
         </StoreContext.Provider>
-    )
+    );
 };
 
 export default StoreContextProvider;
