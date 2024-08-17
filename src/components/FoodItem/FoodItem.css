@@ -52,3 +52,15 @@
     font-weight: 500;
     margin: 10px 0px;
 }
+.add{
+   padding-top: 10px;
+  padding-left: 20px;
+ }
+
+ .count{
+    color: white;
+ }
+ .food-item-img-container{
+    position: relative;
+ }
+ 

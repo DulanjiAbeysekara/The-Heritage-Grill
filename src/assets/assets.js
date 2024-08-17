@@ -4,6 +4,10 @@ import search from './search (4).png';
 import homepage from './home2.png';
 import spoon from './spoon3.png'
 import ratingStarts from './star-rate.png'
+import plus from './plus (1).png'
+import plus2 from './plus (2).png'
+import minus from './minus.png'
+
   
 
 
@@ -46,6 +50,11 @@ import food20 from './icecream.jpeg'
 import food19 from './cheesecake.jpeg'
 
 
+import food24  from './milkshake.jpeg'
+import food25 from './smoothie.jpeg'
+import food26 from './lassi.jpeg'
+import food27 from './mocktail.jpeg'
+import food28 from './coffee.jpeg'
 
 export const assets = {
     logo,
@@ -53,7 +62,10 @@ export const assets = {
     search,
     homepage,
     spoon,
-    ratingStarts
+    ratingStarts,
+    plus,
+    plus2,
+    minus
 };
 
 export const menu_list = [
@@ -249,7 +261,7 @@ export const food_list=[
         image:food19,
         price:800,
         description:"Food provides essential nutrients for overall health and well-being",
-        category:"Desert"
+        category:"Deserts"
      },
      {
         id: "20",
@@ -257,7 +269,7 @@ export const food_list=[
         image:food20,
         price:550,
         description:"Food provides essential nutrients for overall health and well-being",
-        category:"Desert"
+        category:"Deserts"
      },
      {
         id: "21",
@@ -265,7 +277,7 @@ export const food_list=[
         image:food21,
         price:600,
         description:"Food provides essential nutrients for overall health and well-being",
-        category:"Desert"
+        category:"Deserts"
      },
      {
         id: "22",
@@ -273,7 +285,7 @@ export const food_list=[
         image:food22,
         price:650,
         description:"Food provides essential nutrients for overall health and well-being",
-        category:"Desert"
+        category:"Deserts"
      },
      {
         id: "23",
@@ -281,7 +293,47 @@ export const food_list=[
         image:food23,
         price:500,
         description:"Food provides essential nutrients for overall health and well-being",
-        category:"Desert"
+        category:"Deserts"
      },
 
+ {
+        id: "24",
+        name:"Milk Shake",
+        image:food24,
+        price:600,
+        description:"Food provides essential nutrients for overall health and well-being",
+        category:"Drinks"
+     },
+     {
+      id: "25",
+      name:"Smoothie",
+      image:food25,
+      price:700,
+      description:"Food provides essential nutrients for overall health and well-being",
+      category:"Drinks"
+   },
+   {
+      id: "26",
+      name:"Lassi",
+      image:food26,
+      price:650,
+      description:"Food provides essential nutrients for overall health and well-being",
+      category:"Drinks"
+   },
+   {
+      id: "27",
+      name:"Mocktail",
+      image:food27,
+      price:800,
+      description:"Food provides essential nutrients for overall health and well-being",
+      category:"Drinks"
+   },
+   {
+      id: "28",
+      name:"Coffee",
+      image:food28,
+      price:600,
+      description:"Food provides essential nutrients for overall health and well-being",
+      category:"Drinks"
+   },
 ]; 
