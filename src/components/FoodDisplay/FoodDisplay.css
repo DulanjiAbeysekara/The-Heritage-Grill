@@ -14,3 +14,9 @@
     gap: 30px;
     row-gap: 50px;
 }
+.line{
+    margin:10px 0px;
+    height:2px;
+    background-color: grey;
+    border: none;
+ }

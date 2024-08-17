@@ -10,6 +10,7 @@ import minus from './minus.png'
 import facebook from './facebook (2).png'
 import twitter from './twitter.png'
 import linkdine from './message.png'
+import chef from './chef.jpg'
 
   
 
@@ -71,7 +72,8 @@ export const assets = {
     minus,
     facebook,
     twitter,
-    linkdine
+    linkdine,
+    chef
 };
 
 export const menu_list = [

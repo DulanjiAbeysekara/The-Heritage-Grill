@@ -30,6 +30,7 @@ const FoodItem = ({ id, name, description, price, image }) => {
         <p className="food-item-desc">{description}</p>
         <p className="price">{price}/=</p>
       </div>
+      
     </div>
   );
 };

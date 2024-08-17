@@ -1,0 +1,32 @@
+.about-content {
+    color: white;
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    text-align: center;
+    gap: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about-details {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.about-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}

@@ -26,6 +26,7 @@ const FoodDisplay = ({ category }) => {
           return null;  
         })}
       </div>
+      <hr className='line'/>
     </div>
   );
 };
