@@ -11,10 +11,10 @@
     color:white;
     font-family: 'Times New Roman', Times, serif;
 }
-.food-item-price{
+/* .price{
     color:white;
     font-family: 'Times New Roman', Times, serif;
-}
+} */
 .name{
     color:white;
     font-family: 'Times New Roman', Times, serif;
@@ -46,10 +46,10 @@
     color: #676767;
     font-size: 12px;
 }
-.food-item-price{
+.price{
     color: rgba(202, 34, 34, 0.932); 
-    font-size: 22px;
-    font-weight: 500;
+    font-size: 18px;
+    /* font-weight: 00; */
     margin: 10px 0px;
 }
 .add{

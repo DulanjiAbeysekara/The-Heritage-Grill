@@ -14,8 +14,8 @@ const Navbar = () => {
       <h1 className='title'>The Heritage Grill</h1>
       <ul className="navbar-menu">
         <li>Home</li>
-        <li>About</li>
-        <li >Menu</li>
+        <li>Menu</li>
+        <li >About Us</li>
         <li >Contact</li>
       </ul>
 
