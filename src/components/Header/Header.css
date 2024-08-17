@@ -6,13 +6,18 @@
     color: white;
 }
 .homePic{
-    width: 450px;
-    left: 60%;
-    bottom: 25%;
+    /* width: 480px; */
+    left: 45%;
+    bottom:15%;
     position: absolute;
-    border-radius:35%;
+    
     /* rotate: 20%; */
 }
+/* .spoonPic{
+    height:250px;
+    position: absolute;
+    left: 88%;
+} */
 .header-content{
     position: absolute;
     display: flex;

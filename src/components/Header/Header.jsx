@@ -11,6 +11,7 @@ const Header = () => {
           <button>View Menu</button>
         </div>
         <img className='homePic' src={assets.homepage}/>
+        {/* <img className='spoonPic' src={assets.spoon}/> */}
 
     </div>
   )

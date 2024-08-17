@@ -1,7 +1,8 @@
 import logo from './logo.png';
 import cart from './shopping-cart.png';
 import search from './search (4).png';
-import homepage from './home.jpeg';
+import homepage from './home2.png';
+import spoon from './spoon3.png'
 
 import menu1 from './menu_1.jpeg';
 import menu2 from './menu_2.jpeg';
@@ -11,11 +12,18 @@ import menu5 from './menu_5.jpeg';
 import menu6 from './menu_6.jpeg';
 // import menu7 from './menu_7.jpeg';
 
+import food1 from './veggieburger.jpeg';
+import food2 from './hamburger.jpeg'
+import food3 from './beefburger.jpeg'
+import food4 from './bbq burger.jpeg'
+import food5 from './cheeseburger.jpeg'
+
 export const assets = {
     logo,
     cart,
     search,
-    homepage
+    homepage,
+    spoon
 };
 
 export const menu_list = [
@@ -49,3 +57,48 @@ export const menu_list = [
     //     menu_image: menu7
     // }
 ];
+
+
+export const food_list=[
+    {
+    id: "1",
+    name:" Veggie burger",
+    image:food1,
+    price:700,
+    description:"Food provides essential nutrients for overall health and well-being",
+    category:"Burger"
+    },
+    {
+        id: "2",
+        name:" Cheese Burger",
+        image:food5,
+        price:650,
+        description:"Food provides essential nutrients for overall health and well-being",
+        category:"Burger"
+     },
+     {
+        id: "3",
+        name:" BBQ Burger",
+        image:food4,
+        price:900,
+        description:"Food provides essential nutrients for overall health and well-being",
+        category:"Burger"
+     },
+     {
+        id: "4",
+        name:"Beef patty",
+        image:food3,
+        price:1000,
+        description:"Food provides essential nutrients for overall health and well-being",
+        category:"Burger"
+     },
+     {
+        id: "5",
+        name:"Hamburger",
+        image:food2,
+        price:950,
+        description:"Food provides essential nutrients for overall health and well-being",
+        category:"Burger"
+     },
+     
+]; 
