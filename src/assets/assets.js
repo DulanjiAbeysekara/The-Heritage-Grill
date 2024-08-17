@@ -3,6 +3,9 @@ import cart from './shopping-cart.png';
 import search from './search (4).png';
 import homepage from './home2.png';
 import spoon from './spoon3.png'
+import ratingStarts from './star-rate.png'
+  
+
 
 import menu1 from './menu_1.jpeg';
 import menu2 from './menu_2.jpeg';
@@ -18,12 +21,21 @@ import food3 from './beefburger.jpeg'
 import food4 from './bbq burger.jpeg'
 import food5 from './cheeseburger.jpeg'
 
+import food6 from './fishpiza.jpg'
+import food7 from './Chilli Chicken Pizza.jpg'
+import food8 from './Sausage Delight.jpg'
+import food9 from './Cheesy Tomato with Gre.jpg'
+import food10 from './new pizz.jpg'
+
+
+
 export const assets = {
     logo,
     cart,
     search,
     homepage,
-    spoon
+    spoon,
+    ratingStarts
 };
 
 export const menu_list = [
@@ -100,5 +112,57 @@ export const food_list=[
         description:"Food provides essential nutrients for overall health and well-being",
         category:"Burger"
      },
+
+
+     {
+        id: "6",
+        name:"Spicy Fish Pizza",
+        image:food6,
+        price:1600,
+        description:"Food provides essential nutrients for overall health and well-being",
+        category:"Pizza"
+     },
+     {
+        id: "7",
+        name:"Chilli Chicken Pizza",
+        image:food7,
+        price:2100,
+        description:"Food provides essential nutrients for overall health and well-being",
+        category:"Pizza"
+     },
+     {
+        id: "8",
+        name:"Sausage Delight",
+        image:food8,
+        price:1550,
+        description:"Food provides essential nutrients for overall health and well-being",
+        category:"Pizza"
+     },
+     {
+        id: "9",
+        name:"Chicken Bacon & Potato wit",
+        image:food9,
+        price:1850,
+        description:"Food provides essential nutrients for overall health and well-being",
+        category:"Pizza"
+     },
+     {
+        id: "10",
+        name:"Cheesy Tomato with Gre",
+        image:food10,
+        price:1950,
+        description:"Food provides essential nutrients for overall health and well-being",
+        category:"Pizza"
+     },
+
+
+    //  {
+    //     id: "11",
+    //     name:"Hamburger",
+    //     image:food11,
+    //     price:950,
+    //     description:"Food provides essential nutrients for overall health and well-being",
+    //     category:"Burger"
+    //  },
      
 ]; 
