@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import './Navbar.css';  
 import { assets } from '../../assets/assets'; 
+import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
 
-    const [menu,setMenu]=useState("home");
+    const [menu,setMenu]=useState("menu");
 
   return (
     <div className='navbar'>
@@ -13,10 +14,10 @@ const Navbar = () => {
 
       <h1 className='title'>The Heritage Grill</h1>
       <ul className="navbar-menu">
-        <li>Home</li>
-        <li>Menu</li>
-        <li >About Us</li>
-        <li >Contact</li>
+        <li><Link to='/' onClick={()=>(setMenu("home"))} className={menu==='home'?'active':''}>Home</Link></li>
+        <li><a href='#exploerMenu' onClick={()=>(setMenu("menu"))} className={menu==='menu'?'active':''}>Menu</a></li>
+        <li><a href='#about-content' onClick={()=>(setMenu)("about us")} className={menu==='about us'?'active':''}>About Us</a></li>
+        <li><a href='#footer' onClick={()=>(setMenu)('contact us')} className={menu==='contact us'?'active':''}>Contact</a></li>
       </ul>
 
       <div className="navbar-right">
