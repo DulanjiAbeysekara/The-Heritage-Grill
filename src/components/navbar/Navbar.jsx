@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
-      <img src={assets.logo} alt="Logo" className="logo" />
+    <Link to='/'>  <img src={assets.logo} alt="Logo" className="logo" /></Link>
 
       <h1 className='title'>The Heritage Grill</h1>
       <ul className="navbar-menu">
@@ -24,7 +24,9 @@ const Navbar = () => {
         <img className='search'src={assets.search} alt="Search" />
 
        <div className="barket">
-            <img className='cart' src={assets.cart}/>
+           <Link to='/cart'>
+           <img className='cart' src={assets.cart}/>
+           </Link> 
             <div className="dot"></div>
        </div>
        <button >Sign in</button>

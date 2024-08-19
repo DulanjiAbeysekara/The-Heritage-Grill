@@ -47,12 +47,15 @@
 }
 
 .search, .cart {
-    width: 28px;
-    height: 28px;
+    
+    /* height: 28px; */ 
+    
 }
 
 .barket {
     position: relative;
+    width: 28px; 
+    height: 28px;
 }
 .navbar button{
     font-family: "Roboto Condensed", sans-serif;

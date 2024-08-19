@@ -1,0 +1,101 @@
+.cart {
+    margin-top: 4px;
+    width: 100%;
+    /* padding: 0 20px; */
+    position: relative;
+    /* box-sizing: border-box; */
+    /* background-color: #222; */
+    /* color: white; */
+    padding-bottom: 60%;
+}
+
+.cart-item-title, .cart-items-item {
+    display: grid;
+    grid-template-columns: 100px 1.5fr 1fr 1fr 1fr 50px;
+    align-items: center;
+    font-size: max(1vw, 12px);
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+    border-bottom: 1px solid grey;
+}
+
+.cart-items-item {
+    margin: 10px 0;
+}
+
+.cart-items-item img {
+    width: 60px;
+    height: 60px;
+    /* object-fit: cover; */
+}
+
+.cart hr {
+    background-color: grey;
+    height: 1px;
+    border: none;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.cart-bottom {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.cart-total {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.cart-total-details {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.cart-total-details button {
+    padding: 10px 20px;
+    background-color:rgba(202, 34, 34, 0.932);
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cart-total-details button:hover {
+    background-color: rgba(202, 34, 34, 0.932);
+}
+.cross{
+    cursor: pointer;
+}
+.cart-promocode p{
+    color: #555;
+     font-family: 'Times New Roman', Times, serif;
+
+}
+.cart-promocode-input{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #555;
+    border-radius: 4px;
+}
+.cart-promocode-input input{
+    background: transparent;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cart-promocode-input input button{
+    width: max(10vw,150px);
+    padding: 12px 5px;
+    background-color: white;
+    border: none;
+    color: #555;
+    border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif;
+}
